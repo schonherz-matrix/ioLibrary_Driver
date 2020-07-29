@@ -100,6 +100,10 @@ void DHCP_init(uint8_t s, uint8_t * buf);
  */
 void DHCP_time_handler(void);
 
+void default_ip_assign(void);
+void default_ip_update(void);
+void default_ip_conflict(void);
+
 /* 
  * @brief Register call back function 
  * @param ip_assign   - callback func when IP is assigned from DHCP server first
