@@ -839,7 +839,7 @@ void    DHCP_stop(void)
    dhcp_state = STATE_DHCP_STOP;
 }
 
-void DHCP_rebind() { dhcp_lease_time = 0; }
+void DhcpRebind() { dhcp_lease_time = 0; }
 
 uint8_t check_DHCP_timeout(void)
 {

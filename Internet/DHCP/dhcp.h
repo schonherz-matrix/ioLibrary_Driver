@@ -135,7 +135,7 @@ void    DHCP_stop(void);
 /**
  * @brief Force DHCP rebind state by setting dhcp_lease_time to zero
  */
-void DHCP_rebind();
+void DhcpRebind();
 
 /* Get Network information assigned from DHCP server */
 /*
